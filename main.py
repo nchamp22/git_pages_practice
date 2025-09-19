@@ -1,5 +1,7 @@
+from utils import print_custom
 def main():
-    print("Hello from github-issue-page-demo!")
+    print("Hello Github!")
+    print_custom("This is a custom message from the print_custom module.")
 
 
 if __name__ == "__main__":
